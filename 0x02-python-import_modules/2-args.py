@@ -6,7 +6,7 @@ argu = sys.argv
 n = len(argu) - 1
 if n > 1:
     print("{} arguments:".format(n))
-    for i in range(1,n + 1):
+    for i in range(1, n + 1):
         print("{}: {}".format(i, argu[i]))
 elif n == 0:
     print("{} arguments.".format(n))
